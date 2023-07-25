@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <form action="form-echo.php" method="get">
+        <h1>แบบฟอร์มจองทัวร์</h1>
+        <fieldset style="border: 2px solid black;">
+            <legend><h3>ข้อมูลทั่วไป</h3></legend>
+            
+            <label>ชื่อ-สกุล:</label><br>
+            <input type="text" name="ชื่อ-สกุล" required="" placeholder="กรอกชื่อ-สกุล" pattern="[[a-zA-Z]+*s]">*<br>
+
+            <label>Email :</label><br>
+            <input type="text" name="Email" required="" pattern="[a-zA-z0-9]+@[a-zA-z]+\.[a-zA-Z]+">*<br>
+
+            <label>โทรศัพท์ :</label><br>
+            <input type="tel" name="โทรศัพท์" placeholder="+66" required="" pattern="[0-9]{10}">*<br>
+
+            <label>ที่อยู่ :</label><br>
+            <textarea name="ที่อยู่"></textarea><br>
+
+            <label>รหัสไปรษณีย์ :</label>
+            <input type="text" name="รหัสไปรษณีย์" size="5" pattern="[0-9]{5}"><br>
+
+            <label>รูปผู้จอง :</label>
+            <input type="file" name="รูปผู้จอง">
+        </fieldset>
+        
+        <fieldset style="border: 2px solid black;">
+            <legend><h3>ข้อมูลเข้าสู่ระบบ</h3></legend>
+
+            <label>Username :</label><br>
+            <input type="text" name="Username" pattern="[a-zA-Z0-9_]{8,}"><br>
+            <i>ประกอบด้วยตัวเลข ตัวอักษร หรือ_ตั้งเเต่ 8 ตัวขึ้นไป</i><br>
+            
+            <label>Password :</label><br>
+            <input type="text" name="Password" pattern="[A-Za-z0-9]{8,}"><br>
+            <i>ประกอบไปด้วยอักขระอะไรก็ได้ 8 ตัวขึ้นไป</i>
+        </fieldset>
+
+        <fieldset style="border: 2px solid black;">
+            <legend><h3>ข้อมูลทัวร์ที่ต้องการ</h3></legend>
+
+            <label>เเพคเก็จทัวร์ :</label>
+            <select required="" name="เเพคเก็จทัวร์">
+                <option value="">
+                    --select--
+                </option>
+                <option value="ประเทศเกาหลี">
+                    ประเทศเกาหลี
+                </option>
+                <option value="ประเทศญี่ปุ่น">
+                    ประเทศญี่ปุ่น
+                </option>
+                <option value="ประเทศอเมริกา">
+                    ประเทศอเมริกา
+                </option>
+            </select>
+            <br>
+
+            <label for="วันที่เดินทาง">วันที่เดินทาง:</label>
+            <input type="date" id="birthday" name="วันที่เดินทาง"><br>
+
+            <label>จำนวนผู้เดินทาง:</label>
+            <input min="1" max="10" type="number" name="จำนวนผู้เดินทาง"><br>
+
+            <label>เน้นการท่องเที่ยวเเบบใด?</label><br>
+            <input type="checkbox" name="ชอปปิ้ง">ชอปปิ้ง
+            <br>
+            <input type="checkbox" name="ธรรมชาติ">ธรรมชาติ
+            <br>
+            <input type="checkbox" name="ทะเล">ทะเล
+
+        </fieldset>
+        <label>ยอมรับเงื่อนไขเเละข้อตกลง</label>
+        <input type="radio" name="ยอมรับข้อตกลง" value="agree"> I agree
+        <input type="radio" name="ไม่เห็นด้วย" value="disagree"> I disagree
+        <button>จอง</button>
+        <br> 
+        
+</form>
+
+</body>
+</html>
