@@ -40,11 +40,11 @@ nav{
   div.gallery:hover {
     border:1px solid #777;
   }*/
-  
   div.gallery img {
     width: 100%;
     height: auto;
     border-radius: 50%;
+    border: 2px solid #575656;
   }
   
   div.desc {
@@ -100,4 +100,7 @@ nav{
     content: "";
     display: table;
     clear: both;
+  }
+  h3{
+    text-align: center;
   }
