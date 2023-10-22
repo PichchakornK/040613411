@@ -52,7 +52,7 @@ nav{
     height: auto;
     border-radius: 50%;
     margin-bottom: 3px;
-    border:  3px solid #466192;
+    border:  3px solid #FFFFE0;
     /*border: 2px solid ;*/
   }
   
@@ -82,8 +82,8 @@ nav{
   }
   body{
     align-content: center;
-    background-color:#b2ebf2;
-   /* background-image: url(./img/bg8.jpg);*/
+    /*background-color:#b2ebf2;*/
+    background-image: url(./img/bg8.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -92,7 +92,7 @@ nav{
 
   .responsive {
     display: flex;
-    margin-left: 58px;
+    margin-left: 54px;
     margin-right: 9px;
     margin-bottom: 10px;
     padding: 0 6px;
@@ -142,3 +142,4 @@ nav{
     padding: 30px;
     padding-left: 100px;
   }
+
