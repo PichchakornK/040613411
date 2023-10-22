@@ -6,7 +6,7 @@
 
 nav{
     padding: 1rem;
-    background-color: #4f3e38;
+    background-color:#293242;
     display: flex;
     justify-content: space-between;
 }
@@ -50,34 +50,40 @@ nav{
   div.gallery img {
     width: 100%;
     height: auto;
-    /*border-radius: 50%;
+    border-radius: 50%;
+    margin-bottom: 3px;
+    border:  3px solid #466192;
     /*border: 2px solid ;*/
   }
   
   div.desc {
-    background-color:#FFFFE0;
+    background-color:#FFFFE0 ;
     color: #4A3933;
     padding: 5px;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 20px;
   }
   div.link{
-    font-size: 13px;
+    font-size: 10px;
     text-decoration: none;
   }
+ 
   div#header{
-    background-color:#FFFFE0;
+    background-color: #FFFFE0;
     margin-left: 80px;
     margin-right: 80px;
     padding: 50px;
     color: #4A3933;
     border-radius: 50px;
-    /*border: 1px solid #4A3933;*/
+    /*border: 3px solid #ab7763;*/
   }
   body{
     align-content: center;
-    background-color: #FFDCDC;
-    background-image: url(./img/bg8.jpg);
+    background-color:#b2ebf2;
+   /* background-image: url(./img/bg8.jpg);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -91,7 +97,9 @@ nav{
     margin-bottom: 10px;
     padding: 0 6px;
     float: left;
-    width: 15%;
+    width: 20%;
+    justify-content: space-between;
+    
   }
 
   h2{
@@ -123,6 +131,14 @@ nav{
     display: table;
     clear: both;
   }
-  h3{
-    text-align: center;
+
+  p.text-align{
+    font-size: 12px;
+  }
+  div.re{
+    color:white;
+    background-color: #293242;
+    margin: 30px;
+    padding: 30px;
+    padding-left: 100px;
   }
