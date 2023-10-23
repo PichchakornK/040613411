@@ -15,8 +15,8 @@ nav{
   top: 0;
   left: 0;
   width: 100%;
- /* background-color: #fff; /* Set your desired background color */
- /* z-index: 100; /* Adjust the z-index as needed to ensure it appears above other content */
+ /* background-color: #fff; 
+ /* z-index: 100;*/
 }
 
 .logo a{
@@ -71,15 +71,20 @@ nav{
     text-decoration: none;
   }
  
-  div#header{
+  div#header {
+    background-image: url(./img/bg11.jpg);
     background-color: #FFFFE0;
+    background-size: contain; 
+    background-position: center; 
     margin-left: 80px;
     margin-right: 80px;
     padding: 50px;
-    color: #4A3933;
+    color: black;
     border-radius: 50px;
+    border: 20px;
     /*border: 3px solid #ab7763;*/
-  }
+}
+
   body{
     align-content: center;
     /*background-color:#c5f4fa;*/
@@ -104,10 +109,12 @@ nav{
 
   h2{
     text-align: center;
+    
   }
 
   h4{
     text-align: center;
+  
   }
   p{
     text-align: center;
