@@ -58,7 +58,7 @@ nav{
   
   div.desc {
     background-color:#FFFFE0 ;
-    color: #4A3933;
+    color: #3e2d26;
     padding: 5px;
     text-align: center;
     font-size: 14px;
@@ -82,8 +82,8 @@ nav{
   }
   body{
     align-content: center;
-    /*background-color:#b2ebf2;*/
-    background-image: url(./img/bg8.jpg);
+    /*background-color:#c5f4fa;*/
+    background-image: url(./img/bg9.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
