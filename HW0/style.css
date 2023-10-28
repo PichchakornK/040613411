@@ -141,6 +141,7 @@ nav{
 
   p.text-align{
     font-size: 12px;
+    
   }
   div.re{
     color:white;
@@ -148,5 +149,6 @@ nav{
     margin: 100px;
     padding: 30px;
     padding-left: 100px;
+    border-radius: 30px;
   }
 
